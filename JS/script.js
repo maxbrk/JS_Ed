@@ -31,9 +31,17 @@ let personalMovieDB = {
 	genres : [],
 	privat : false
 };
+// let a = prompt ('What last movie did you watch?','');
+// personalMovieDB.movies[a] = prompt ('How do you evaluate it?','');
+// let b = prompt ('What last movie did you watch?','');
+// personalMovieDB.movies[b] = prompt ('How do you evaluate it?','');
+
 let a = prompt ('What last movie did you watch?','');
-personalMovieDB.movies[a] = prompt ('How do you evaluate it?','');
-let b = prompt ('What last movie did you watch?','');
-personalMovieDB.movies[b] = prompt ('How do you evaluate it?','');
+let b = prompt ('How do you evaluate it?','');
+let c = prompt ('What last movie did you watch?','');
+let d = prompt ('How do you evaluate it?','');
+
+personalMovieDB[a] = b;
+personalMovieDB[c] = d;
 
 console.log (personalMovieDB);
